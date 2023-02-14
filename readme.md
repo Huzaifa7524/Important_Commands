@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ```
 ## 6. How to create requirements.txt
 
-```python
+```bash
 
 pip freeze > requirements.txt
 
