@@ -48,4 +48,20 @@ pip freeze > requirements.txt
 
 ```
 
+## Office 16 Activation 
+- goto this dir C:\Program Files\Microsoft Office\Office16
+- copy  the address and run  cmd as admin.
+- change dir by using this 
+  `cd C:\Program Files\Microsoft Office\Office16`
+
+### code 
+1.
+```bash
+cscript ospp.vbs /sethst:kms.03k.org
+```
+
+2.
+```bash
+cscript ospp.vbs /act
+```
 
